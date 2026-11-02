@@ -352,6 +352,11 @@ Settings ParamRefs::read() const noexcept
     u.timeShiftOn = b (uTsOn); u.timeShiftMs = f (uTs); u.mix = f (uMix);
     u.outLDb = f (uOutL); u.outRDb = f (uOutR); u.outLink = b (uLink);
     u.limiterOn = b (uLimOn); u.limiterCeilDb = f (uLimCeil);
+    // Neutralwerte exakt einrasten: die Rückrechnung aus dem Normalbereich (Skew) kann je nach System
+    // um eine Rundungsstelle abweichen – sonst wäre "neutral" nicht mehr bitgleich.
+    auto snap = [] (float& v, float target, float tol) { if (std::abs (v - target) < tol) v = target; };
+    snap (u.imager, 1.0f, 1.0e-4f); snap (u.tiltMs, 0.0f, 1.0e-4f); snap (u.timeShiftMs, 0.0f, 1.0e-4f);
+    snap (u.outLDb, 0.0f, 1.0e-3f); snap (u.outRDb, 0.0f, 1.0e-3f); snap (u.mix, 1.0f, 1.0e-5f);
     g.keyRoot = juce::jlimit (0, 11, i (keyRoot));
     g.keyScale = juce::jlimit (0, kNumScales - 1, i (keyScale));
     g.keyTolCents = f (keyTol);

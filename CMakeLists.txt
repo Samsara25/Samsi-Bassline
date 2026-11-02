@@ -115,6 +115,10 @@ if(SAMSI_MINIMAL_LINUX_DEPS AND CMAKE_SYSTEM_NAME STREQUAL "Linux")
 endif()
 
 target_compile_definitions(SamsiBassline PUBLIC ${SAMSI_DEFINITIONS})
+# Gleiche Rechenergebnisse auf allen Systemen: keine automatische FMA-Zusammenfassung
+# (sonst rechnet z. B. Apple Silicon MIX = KICK + BASS um eine Rundungsstelle anders).
+set(SAMSI_FP_FLAGS $<$<CXX_COMPILER_ID:Clang,AppleClang,GNU>:-ffp-contract=off>)
+target_compile_options(SamsiBassline PRIVATE ${SAMSI_FP_FLAGS})
 
 target_link_libraries(SamsiBassline
     PRIVATE
@@ -135,6 +139,7 @@ if(SAMSI_BUILD_TESTS)
     juce_add_console_app(SamsiTests PRODUCT_NAME "SamsiTests")
     target_sources(SamsiTests PRIVATE tests/TestMain.cpp ${SAMSI_SOURCES})
     target_include_directories(SamsiTests PRIVATE Source)
+    target_compile_options(SamsiTests PRIVATE ${SAMSI_FP_FLAGS})
     target_compile_definitions(SamsiTests PRIVATE
         ${SAMSI_DEFINITIONS}
         SAMSI_TEST_BUILD=1
