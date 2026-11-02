@@ -40,5 +40,5 @@ Beide Skripte bauen das VST3, führen die automatischen Tests aus und installier
 | `.github/workflows/build.yml` | Cloud-Build Windows + macOS inkl. Installer |
 | `installer/` | Installer-Skripte (Inno Setup für Windows, pkgbuild für macOS) |
 
-**Ehrlicher Stand:** Unter Linux gebaut und vollständig getestet (Testsuite, pluginval, Steinberg-Validator).
-Windows- und macOS-Build sowie die Installer sind vorbereitet, aber noch nicht ausgeführt worden.
+**Stand:** Linux, Windows x64 und macOS Universal gebaut, alle 295 automatischen Tests bestanden; Installer werden im
+Cloud-Build erzeugt. Noch offen: Test in Ableton/Cubase/Bitwig/FL Studio auf echten Rechnern.

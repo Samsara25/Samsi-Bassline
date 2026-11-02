@@ -472,8 +472,9 @@ lass die Einzelspuren weg.
 
 ## 6. Bauen
 
-> Ich konnte in meiner Umgebung **nur unter Linux** bauen und testen. Windows- und macOS-Builds sind
-> vorbereitet, aber **nicht** von mir ausgeführt worden.
+> Stand 2. 11. 2026: Der Cloud-Build auf GitHub (Windows Server x64, macOS mit Xcode 26.6) läuft **grün** – Plugin gebaut,
+> **alle 295 Tests bestanden** auf Windows und macOS (Universal: arm64 + x86_64), Installer (Setup.exe, .pkg) erzeugt.
+> Noch nicht geprüft: Installation und Betrieb in den DAWs auf echten Rechnern.
 
 ### macOS (Apple Silicon und Intel)
 
@@ -615,7 +616,7 @@ Die Testsuite läuft auch bei jedem Build-Skript und im Cloud-Build mit.
 
 **Nicht von mir ausgeführt – bitte selbst prüfen:**
 
-* Kompilieren unter **Windows** und **macOS** (Skripte und Cloud-Workflow sind vorbereitet, aber ungetestet).
+* Kompilieren unter **Windows** und **macOS**: im Cloud-Build erledigt (alle Tests grün); die lokalen Build-Skripte selbst sind ungetestet.
 * Sidechain-Eingang in den einzelnen DAWs (vor allem, ob Ableton Live 12 und FL Studio ihn bei einem VST3-Instrument anbieten).
 * CPU-Last der Analyse-Ansicht (läuft nur, solange das Plugin-Fenster offen ist).
 * Laden in **Ableton Live 12, Cubase, Bitwig, FL Studio** (Erkennung, Routing der Mehrfachausgänge,
