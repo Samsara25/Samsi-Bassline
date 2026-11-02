@@ -1,0 +1,75 @@
+# Cloud-Build für Windows x64 und macOS (Universal: Apple Silicon + Intel).
+# Start: GitHub > Actions > "Build Samsi Bassline" > "Run workflow".
+# Ergebnis: unter dem Lauf als "Artifacts" herunterladen.
+name: Build Samsi Bassline
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            name: Windows-x64
+            configure: cmake -S . -B build -A x64
+            tests: build/SamsiTests_artefacts/Release/SamsiTests.exe
+          - os: macos-latest
+            name: macOS-Universal
+            configure: cmake -S . -B build -G Xcode -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64" -DCMAKE_OSX_DEPLOYMENT_TARGET=10.15
+            tests: build/SamsiTests_artefacts/Release/SamsiTests
+
+    runs-on: ${{ matrix.os }}
+    name: ${{ matrix.name }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Konfigurieren
+        run: ${{ matrix.configure }}
+
+      - name: Bauen
+        run: cmake --build build --config Release --target SamsiBassline_VST3 SamsiTests
+
+      - name: Automatische Tests
+        run: ${{ matrix.tests }}
+
+      - name: macOS ad-hoc signieren
+        if: runner.os == 'macOS'
+        run: |
+          codesign --force --deep --sign - "build/SamsiBassline_artefacts/Release/VST3/Samsi Bassline.vst3"
+          lipo -info "build/SamsiBassline_artefacts/Release/VST3/Samsi Bassline.vst3/Contents/MacOS/Samsi Bassline"
+
+      - name: Version lesen
+        shell: bash
+        run: |
+          VERSION=$(grep -m1 -oE 'VERSION [0-9]+\.[0-9]+\.[0-9]+' CMakeLists.txt | cut -d' ' -f2)
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          echo "Version $VERSION"
+
+      - name: Windows-Installer (Inno Setup)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { choco install innosetup -y --no-progress; $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" }
+          & $iscc "/DAppVersion=$env:VERSION" installer\windows\SamsiBassline.iss
+          Compress-Archive -Path "build\SamsiBassline_artefacts\Release\VST3\Samsi Bassline.vst3" -DestinationPath "dist\SamsiBassline-$env:VERSION-Windows-x64-VST3.zip"
+          Copy-Item docs\INSTALLIEREN.md dist\INSTALLIEREN.md
+
+      - name: macOS-Installer (.pkg)
+        if: runner.os == 'macOS'
+        run: |
+          bash installer/macos/build_pkg.sh "$VERSION"
+          (cd build/SamsiBassline_artefacts/Release/VST3 && ditto -c -k --keepParent "Samsi Bassline.vst3" "$GITHUB_WORKSPACE/dist/SamsiBassline-$VERSION-macOS-Universal-VST3.zip")
+          cp docs/INSTALLIEREN.md dist/INSTALLIEREN.md
+
+      - name: Ergebnis hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: SamsiBassline-${{ matrix.name }}
+          path: dist/

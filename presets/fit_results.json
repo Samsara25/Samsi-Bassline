@@ -1,0 +1,927 @@
+[
+  {
+    "name": "Rostige Mantra-Maschine",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 6.472439585730464,
+      "cancel_mean_20_60": 2.261016062619873,
+      "cancel_mean_60_120": 0.006030380262422,
+      "onset_cancel": 0.105361325086512,
+      "attack_loss": 0.0,
+      "sum_peak": -3.984298308577991,
+      "bass_energy": -20.787819510962642,
+      "loudness": -11.418515454484707,
+      "cost": 11.425077630480192
+    },
+    "after": {
+      "cancel_worst_20_60": 2.432169343573082,
+      "cancel_mean_20_60": 0.040000727919856,
+      "cancel_mean_60_120": 0.453841576740431,
+      "onset_cancel": 0.0,
+      "attack_loss": 0.0,
+      "sum_peak": -3.984298308577991,
+      "bass_energy": -20.634547160204868,
+      "loudness": -11.278790026590954,
+      "cost": 1.32492282598392
+    },
+    "fit": {
+      "fit_phase": 202.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Stahlkathedrale",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 3.734107365617129,
+      "cancel_mean_20_60": 0.529821976184343,
+      "cancel_mean_60_120": 1.991674819078195,
+      "onset_cancel": 0.000149833679637,
+      "attack_loss": 0.0,
+      "sum_peak": -3.996907690353368,
+      "bass_energy": -21.903125030179321,
+      "loudness": -11.597526893345989,
+      "cost": 11.989022790205849
+    },
+    "after": {
+      "cancel_worst_20_60": 2.089630780572919,
+      "cancel_mean_20_60": 0.018169883145196,
+      "cancel_mean_60_120": 0.200246920295633,
+      "onset_cancel": 0.140830937864201,
+      "attack_loss": 0.0,
+      "sum_peak": -3.996907690353368,
+      "bass_energy": -22.097727609132182,
+      "loudness": -11.332115905507093,
+      "cost": 1.498263783681467
+    },
+    "fit": {
+      "fit_phase": 298.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.5,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 1
+    }
+  },
+  {
+    "name": "Kolben im Kosmos",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 12.784851544953316,
+      "cancel_mean_20_60": 0.731074683906816,
+      "cancel_mean_60_120": 1.48359335285649,
+      "onset_cancel": 2.152663453158787e-6,
+      "attack_loss": 0.0,
+      "sum_peak": -3.89432257435664,
+      "bass_energy": -23.98667510647174,
+      "loudness": -11.916775114821588,
+      "cost": 31.874567812250238
+    },
+    "after": {
+      "cancel_worst_20_60": 2.521682412417325,
+      "cancel_mean_20_60": 0.006040712922957,
+      "cancel_mean_60_120": 0.577634801132614,
+      "onset_cancel": 0.0,
+      "attack_loss": 1.882492382421219e-6,
+      "sum_peak": -3.894316900107011,
+      "bass_energy": -24.595328959282419,
+      "loudness": -11.812005773281959,
+      "cost": 1.414258417670871
+    },
+    "fit": {
+      "fit_phase": 72.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 2.0,
+      "fit_duck_ms": 160.0,
+      "fit_trim_db": -0.5,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Nachtschatten-Nebula",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 11.820535559901407,
+      "cancel_mean_20_60": 1.767753721442129,
+      "cancel_mean_60_120": 0.017509223921425,
+      "onset_cancel": 0.527843383093955,
+      "attack_loss": 0.000136436805328,
+      "sum_peak": -3.874093125109232,
+      "bass_energy": -28.13174576585881,
+      "loudness": -14.612236889046196,
+      "cost": 24.504667014274588
+    },
+    "after": {
+      "cancel_worst_20_60": 1.837436202922527,
+      "cancel_mean_20_60": 0.127530733783192,
+      "cancel_mean_60_120": 0.135418999459044,
+      "onset_cancel": 0.037569778409634,
+      "attack_loss": 0.0,
+      "sum_peak": -3.87404945425015,
+      "bass_energy": -27.646115412059899,
+      "loudness": -14.550388560663448,
+      "cost": 0.874200130979625
+    },
+    "fit": {
+      "fit_phase": 49.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 1
+    }
+  },
+  {
+    "name": "Mondfresser",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 9.865558847739722,
+      "cancel_mean_20_60": 0.960420579444037,
+      "cancel_mean_60_120": 0.103140978472424,
+      "onset_cancel": 5.180271743565612e-7,
+      "attack_loss": 0.004560002548599,
+      "sum_peak": -3.793904422505575,
+      "bass_energy": -31.118575181524506,
+      "loudness": -14.879310585331849,
+      "cost": 15.61522555961912
+    },
+    "after": {
+      "cancel_worst_20_60": 1.827414632799774,
+      "cancel_mean_20_60": 0.18868077080497,
+      "cancel_mean_60_120": 0.085300243075791,
+      "onset_cancel": 0.0,
+      "attack_loss": 0.002552939042652,
+      "sum_peak": -3.79922982434775,
+      "bass_energy": -29.923210185916737,
+      "loudness": -14.840560866827605,
+      "cost": 0.595610073883297
+    },
+    "fit": {
+      "fit_phase": 240.0,
+      "fit_polarity": 1,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Schwarzlicht-Sutra",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 4.087926307620878,
+      "cancel_mean_20_60": 0.776150321422857,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 1.750810282488291,
+      "attack_loss": 0.0,
+      "sum_peak": -4.010083315768621,
+      "bass_energy": -28.478124216452759,
+      "loudness": -14.59030082637325,
+      "cost": 7.707085513825727
+    },
+    "after": {
+      "cancel_worst_20_60": 1.167000683367862,
+      "cancel_mean_20_60": 0.210936710727032,
+      "cancel_mean_60_120": 0.197282415724616,
+      "onset_cancel": 0.000513603294612,
+      "attack_loss": 0.002582090794299,
+      "sum_peak": -4.035097311292596,
+      "bass_energy": -28.554761749936546,
+      "loudness": -14.588857663805038,
+      "cost": 0.911219884827621
+    },
+    "fit": {
+      "fit_phase": 34.5,
+      "fit_polarity": 1,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.5,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Spektrale Sümpfe",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 0.741815195674539,
+      "cancel_mean_20_60": 0.129662230344802,
+      "cancel_mean_60_120": 0.226036270762061,
+      "onset_cancel": 0.016923543756593,
+      "attack_loss": 0.0,
+      "sum_peak": -3.797161474977381,
+      "bass_energy": -28.647186802563493,
+      "loudness": -14.145057829450051,
+      "cost": 0.142129801429041
+    },
+    "after": {
+      "cancel_worst_20_60": 0.516271517873251,
+      "cancel_mean_20_60": 0.052626522392826,
+      "cancel_mean_60_120": 0.122718209898002,
+      "onset_cancel": 0.012243989105356,
+      "attack_loss": 0.0,
+      "sum_peak": -3.798185166187072,
+      "bass_energy": -28.649807171791121,
+      "loudness": -14.114841253348503,
+      "cost": 0.100818457899003
+    },
+    "fit": {
+      "fit_phase": 54.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Chrom-Prophet",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 9.144694430355461,
+      "cancel_mean_20_60": 3.051340286660757,
+      "cancel_mean_60_120": 2.555556077432469,
+      "onset_cancel": 0.111685115478485,
+      "attack_loss": 0.0,
+      "sum_peak": -4.025856136396749,
+      "bass_energy": -27.494421376094245,
+      "loudness": -13.18829195412151,
+      "cost": 48.184409288263723
+    },
+    "after": {
+      "cancel_worst_20_60": 2.105088936232269,
+      "cancel_mean_20_60": 0.046933456249199,
+      "cancel_mean_60_120": 0.021872522832176,
+      "onset_cancel": 0.491742075561332,
+      "attack_loss": 0.0,
+      "sum_peak": -4.025856136396749,
+      "bass_energy": -27.899179630766966,
+      "loudness": -13.012503175523099,
+      "cost": 1.123268636816659
+    },
+    "fit": {
+      "fit_phase": 148.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Quantensamen",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 4.758733285989934,
+      "cancel_mean_20_60": 1.016407074492784,
+      "cancel_mean_60_120": 1.50262961324844,
+      "onset_cancel": 0.52805411690828,
+      "attack_loss": 0.0,
+      "sum_peak": -3.935222259001152,
+      "bass_energy": -26.16515988322703,
+      "loudness": -12.885233561722353,
+      "cost": 11.453091644494487
+    },
+    "after": {
+      "cancel_worst_20_60": 0.23844886456454,
+      "cancel_mean_20_60": 0.020312947614236,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.077196564652468,
+      "attack_loss": 0.0,
+      "sum_peak": -3.935222259001152,
+      "bass_energy": -26.523588014872161,
+      "loudness": -12.716027791484963,
+      "cost": 0.141321419104602
+    },
+    "fit": {
+      "fit_phase": 153.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Neon-Nirvana",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 0.000844857379877,
+      "cancel_mean_20_60": 0.000376428559845,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.000026818130691,
+      "attack_loss": 0.0,
+      "sum_peak": -3.873692008434959,
+      "bass_energy": -28.996529779623096,
+      "loudness": -13.40325588787589,
+      "cost": 2.498448777173473e-7
+    },
+    "after": {
+      "cancel_worst_20_60": 0.0,
+      "cancel_mean_20_60": 0.0,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.000026222977515,
+      "attack_loss": 0.0,
+      "sum_peak": -3.873692008434959,
+      "bass_energy": -28.990878843112213,
+      "loudness": -13.402703276424283,
+      "cost": 4.1886649705135e-8
+    },
+    "fit": {
+      "fit_phase": 1.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Xenomantra",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 4.88329566246214,
+      "cancel_mean_20_60": 2.162308242355313,
+      "cancel_mean_60_120": 3.337062723215587,
+      "onset_cancel": 0.010182935732107,
+      "attack_loss": 0.0,
+      "sum_peak": -4.130419948786565,
+      "bass_energy": -24.831992580175385,
+      "loudness": -13.640056252394816,
+      "cost": 34.593316333120718
+    },
+    "after": {
+      "cancel_worst_20_60": 1.627556186417162,
+      "cancel_mean_20_60": 0.143923468978304,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.295143560330953,
+      "attack_loss": 8.081686861061144e-6,
+      "sum_peak": -4.130476589111634,
+      "bass_energy": -24.34474752432028,
+      "loudness": -13.522464107520133,
+      "cost": 0.552806701468537
+    },
+    "fit": {
+      "fit_phase": 204.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Sternsaat-Signal",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 1.82234128619987,
+      "cancel_mean_20_60": 0.430788341038277,
+      "cancel_mean_60_120": 0.016857245651183,
+      "onset_cancel": 0.645617351360568,
+      "attack_loss": 0.0,
+      "sum_peak": -4.069995674624096,
+      "bass_energy": -29.127674191194892,
+      "loudness": -13.776047098383787,
+      "cost": 1.30965990798077
+    },
+    "after": {
+      "cancel_worst_20_60": 0.47743091981812,
+      "cancel_mean_20_60": 0.018490068623944,
+      "cancel_mean_60_120": 0.194141306224369,
+      "onset_cancel": 0.734245601065653,
+      "attack_loss": 0.0,
+      "sum_peak": -4.069995674624096,
+      "bass_energy": -29.33471534812395,
+      "loudness": -13.706087370030863,
+      "cost": 0.890096694976836
+    },
+    "fit": {
+      "fit_phase": 297.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Tentakel-Telepathie",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 12.32255343727997,
+      "cancel_mean_20_60": 4.909379055617426,
+      "cancel_mean_60_120": 1.440702972690285,
+      "onset_cancel": 0.006381317128037,
+      "attack_loss": 0.000026585601112,
+      "sum_peak": -3.995038569461157,
+      "bass_energy": -27.297643749678663,
+      "loudness": -13.730901651166445,
+      "cost": 53.421280434862865
+    },
+    "after": {
+      "cancel_worst_20_60": 1.093121142875937,
+      "cancel_mean_20_60": 0.244701511512288,
+      "cancel_mean_60_120": 0.127727776917388,
+      "onset_cancel": 0.482678794568161,
+      "attack_loss": 0.0,
+      "sum_peak": -3.994840116883536,
+      "bass_energy": -27.298085734491181,
+      "loudness": -13.651791412921048,
+      "cost": 0.637747745289871
+    },
+    "fit": {
+      "fit_phase": 135.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 1
+    }
+  },
+  {
+    "name": "Biomechanischer Lotus",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 3.546326838220207,
+      "cancel_mean_20_60": 0.03220214609585,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 2.992159058223431,
+      "attack_loss": 0.000030341480611,
+      "sum_peak": -4.854976739045444,
+      "bass_energy": -23.561091554036583,
+      "loudness": -13.019323005182612,
+      "cost": 15.538114125366491
+    },
+    "after": {
+      "cancel_worst_20_60": 0.458658362688539,
+      "cancel_mean_20_60": 0.014323639991609,
+      "cancel_mean_60_120": 0.623872007502311,
+      "onset_cancel": 0.135738354528728,
+      "attack_loss": 0.000022840225346,
+      "sum_peak": -4.854976739045444,
+      "bass_energy": -23.370677227587819,
+      "loudness": -12.901204015095269,
+      "cost": 0.488036140758431
+    },
+    "fit": {
+      "fit_phase": 268.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Wirbelknochen-Orgel",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 2.137726303163244,
+      "cancel_mean_20_60": 0.611016259175581,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 1.780082479999598,
+      "attack_loss": 0.000045610731845,
+      "sum_peak": -4.749143880572769,
+      "bass_energy": -20.896895623349444,
+      "loudness": -13.519592149707799,
+      "cost": 5.811862390705612
+    },
+    "after": {
+      "cancel_worst_20_60": 0.530761365151636,
+      "cancel_mean_20_60": 0.04868577030753,
+      "cancel_mean_60_120": 0.091267207270671,
+      "onset_cancel": 0.0,
+      "attack_loss": 0.0,
+      "sum_peak": -4.749099158647523,
+      "bass_energy": -20.454522424975231,
+      "loudness": -13.281496131300909,
+      "cost": 0.060527274761447
+    },
+    "fit": {
+      "fit_phase": 292.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Nekro-Kathedrale",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 4.66900999947172,
+      "cancel_mean_20_60": 1.739980748140737,
+      "cancel_mean_60_120": 0.581139400564338,
+      "onset_cancel": 0.00080000507863,
+      "attack_loss": 0.0,
+      "sum_peak": -4.823253189120519,
+      "bass_energy": -27.390456773868191,
+      "loudness": -13.880256939525967,
+      "cost": 7.660327848032616
+    },
+    "after": {
+      "cancel_worst_20_60": 1.721026687064523,
+      "cancel_mean_20_60": 0.014303490097844,
+      "cancel_mean_60_120": 0.000792123480236,
+      "onset_cancel": 0.385455586495007,
+      "attack_loss": 0.0,
+      "sum_peak": -4.82437638241348,
+      "bass_energy": -27.417409634870346,
+      "loudness": -13.506202269615217,
+      "cost": 1.342404970614882
+    },
+    "fit": {
+      "fit_phase": 321.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Wurzelgeist",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 2.220405136677057,
+      "cancel_mean_20_60": 2.207730658246113,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.027520017283229,
+      "attack_loss": 0.0,
+      "sum_peak": -3.334901318528869,
+      "bass_energy": -34.045087471563257,
+      "loudness": -13.621078736311997,
+      "cost": 5.614740532033999
+    },
+    "after": {
+      "cancel_worst_20_60": 0.0,
+      "cancel_mean_20_60": 0.0,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.000179533908797,
+      "attack_loss": 0.0,
+      "sum_peak": -3.334901318528869,
+      "bass_energy": -33.654115598522317,
+      "loudness": -13.612348984100661,
+      "cost": 4.834863661182995e-8
+    },
+    "fit": {
+      "fit_phase": 195.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Rindenrune",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 0.207335142501647,
+      "cancel_mean_20_60": 0.00123500672739,
+      "cancel_mean_60_120": 0.296821649749366,
+      "onset_cancel": 0.799932174672409,
+      "attack_loss": 0.0,
+      "sum_peak": -3.479682973451155,
+      "bass_energy": -32.884829178545274,
+      "loudness": -13.812203719612468,
+      "cost": 2.635030281603626
+    },
+    "after": {
+      "cancel_worst_20_60": 0.212716740683747,
+      "cancel_mean_20_60": 0.00095175162778,
+      "cancel_mean_60_120": 0.10885559162715,
+      "onset_cancel": 0.202770957028453,
+      "attack_loss": 0.0,
+      "sum_peak": -3.479682973451155,
+      "bass_energy": -32.64478699049198,
+      "loudness": -13.754701861336459,
+      "cost": 0.166302659452388
+    },
+    "fit": {
+      "fit_phase": 4.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 1
+    }
+  },
+  {
+    "name": "Moosorakel",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 0.493522110079625,
+      "cancel_mean_20_60": 0.358281401272966,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.0,
+      "attack_loss": 0.0,
+      "sum_peak": -3.428201394638128,
+      "bass_energy": -32.631605792547013,
+      "loudness": -13.711481208179203,
+      "cost": 0.164900173468737
+    },
+    "after": {
+      "cancel_worst_20_60": 0.0,
+      "cancel_mean_20_60": 0.0,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.0,
+      "attack_loss": 0.0,
+      "sum_peak": -3.428201394638128,
+      "bass_energy": -32.590256415458619,
+      "loudness": -13.709764659571327,
+      "cost": 6.639028276018989e-8
+    },
+    "fit": {
+      "fit_phase": 3.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Morgenkristall",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 2.336363186250596,
+      "cancel_mean_20_60": 0.319805120818399,
+      "cancel_mean_60_120": 0.050117407281892,
+      "onset_cancel": 0.000162643526763,
+      "attack_loss": 0.0,
+      "sum_peak": -4.140593642777112,
+      "bass_energy": -30.966452577849566,
+      "loudness": -13.863843744595178,
+      "cost": 0.92339291656047
+    },
+    "after": {
+      "cancel_worst_20_60": 0.662395309024458,
+      "cancel_mean_20_60": 0.167308642716917,
+      "cancel_mean_60_120": 0.029812527051702,
+      "onset_cancel": 0.127261291469353,
+      "attack_loss": 0.0,
+      "sum_peak": -4.140594476696583,
+      "bass_energy": -31.746606454467262,
+      "loudness": -13.870510237196632,
+      "cost": 0.118816913997662
+    },
+    "fit": {
+      "fit_phase": 108.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Lichtgitter",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 0.0,
+      "cancel_mean_20_60": 0.0,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 1.027697222568875,
+      "attack_loss": 0.0,
+      "sum_peak": -4.207382360236219,
+      "bass_energy": -27.158520008752475,
+      "loudness": -13.167283640731709,
+      "cost": 1.592631478394637
+    },
+    "after": {
+      "cancel_worst_20_60": 0.525194291253197,
+      "cancel_mean_20_60": 0.001952543790802,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 0.488604675689704,
+      "attack_loss": 0.0,
+      "sum_peak": -4.207382360236219,
+      "bass_energy": -27.305787891712811,
+      "loudness": -13.091283166415765,
+      "cost": 0.401604470663962
+    },
+    "fit": {
+      "fit_phase": 19.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 1
+    }
+  },
+  {
+    "name": "Zeitlinien-Zauber",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 8.600151837476933,
+      "cancel_mean_20_60": 1.186864415485028,
+      "cancel_mean_60_120": 0.0,
+      "onset_cancel": 2.002897110062325,
+      "attack_loss": 0.0,
+      "sum_peak": -4.027726139357385,
+      "bass_energy": -29.399400575550803,
+      "loudness": -13.609098144637105,
+      "cost": 18.520434135137315
+    },
+    "after": {
+      "cancel_worst_20_60": 0.438634050328391,
+      "cancel_mean_20_60": 0.137743918558912,
+      "cancel_mean_60_120": 0.201783054846987,
+      "onset_cancel": 0.076684684344253,
+      "attack_loss": 0.0,
+      "sum_peak": -4.027726139357385,
+      "bass_energy": -29.199299703714843,
+      "loudness": -13.573859746266551,
+      "cost": 0.17821228038443
+    },
+    "fit": {
+      "fit_phase": 43.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 1
+    }
+  },
+  {
+    "name": "Hyperlotus 214",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 2.462144683724937,
+      "cancel_mean_20_60": 0.133482167665201,
+      "cancel_mean_60_120": 0.129173064351691,
+      "onset_cancel": 0.505447168288594,
+      "attack_loss": 0.0,
+      "sum_peak": -4.245468336831891,
+      "bass_energy": -28.917343798215192,
+      "loudness": -13.052683859570616,
+      "cost": 1.381078755326167
+    },
+    "after": {
+      "cancel_worst_20_60": 0.542363435507734,
+      "cancel_mean_20_60": 0.138634175574632,
+      "cancel_mean_60_120": 0.135071952960177,
+      "onset_cancel": 0.525302972479375,
+      "attack_loss": 0.0,
+      "sum_peak": -4.245468336831891,
+      "bass_energy": -29.008782865087266,
+      "loudness": -13.026576133105014,
+      "cost": 0.614295403745541
+    },
+    "fit": {
+      "fit_phase": 67.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Synapsen-Sturm",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 4.075896376672905,
+      "cancel_mean_20_60": 0.241229296414908,
+      "cancel_mean_60_120": 0.106669214628519,
+      "onset_cancel": 1.527895475908794,
+      "attack_loss": 0.0,
+      "sum_peak": -4.171662606220279,
+      "bass_energy": -29.592048855547528,
+      "loudness": -12.931575760046806,
+      "cost": 6.061630084610639
+    },
+    "after": {
+      "cancel_worst_20_60": 1.668239183506422,
+      "cancel_mean_20_60": 0.240755300853993,
+      "cancel_mean_60_120": 0.213207946547753,
+      "onset_cancel": 0.009972279288373,
+      "attack_loss": 0.0,
+      "sum_peak": -4.171662606220279,
+      "bass_energy": -28.821633568975244,
+      "loudness": -12.861157502855759,
+      "cost": 0.701451867277674
+    },
+    "fit": {
+      "fit_phase": 255.0,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  },
+  {
+    "name": "Fraktal-Feuer",
+    "ok": true,
+    "before": {
+      "cancel_worst_20_60": 5.252538510700419,
+      "cancel_mean_20_60": 1.872755037705109,
+      "cancel_mean_60_120": 7.042206329409471,
+      "onset_cancel": 0.0,
+      "attack_loss": 0.0,
+      "sum_peak": -4.244190540145059,
+      "bass_energy": -31.619973285485759,
+      "loudness": -13.378017681728506,
+      "cost": 73.865175502591512
+    },
+    "after": {
+      "cancel_worst_20_60": 0.909088289936165,
+      "cancel_mean_20_60": 0.192251394343505,
+      "cancel_mean_60_120": 0.093614490165888,
+      "onset_cancel": 0.363743786186505,
+      "attack_loss": 0.0,
+      "sum_peak": -4.244190540145059,
+      "bass_energy": -30.955647616616471,
+      "loudness": -13.282148237305197,
+      "cost": 0.656565309119216
+    },
+    "fit": {
+      "fit_phase": 229.5,
+      "fit_polarity": 0,
+      "fit_offset_ms": 0.0,
+      "fit_duck_db": 0.0,
+      "fit_duck_ms": 80.0,
+      "fit_trim_db": 0.0,
+      "fit_bass_att_add": 0.0,
+      "fit_kick_tail": 100.0,
+      "fit_phase_mode": 0
+    }
+  }
+]
